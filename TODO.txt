@@ -1,0 +1,6 @@
+- add server code
+- add class for db access
+- add class for generating QR codes
+- add function for generating unique random ids
+
+

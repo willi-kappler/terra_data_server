@@ -1,0 +1,26 @@
+[project]
+version = "0.1"
+name = "TerraDataServer"
+dependencies = [
+    "segno >= 1.6.1",
+    "fastapi >= 0.110.2"
+]
+requires-python = ">= 3.12"
+readme = "README.md"
+description = "A webserver that handles all the data for the Terra project."
+maintainers = [
+  {name = "Willi Kappler", email = "grandor@gmx.de"}
+]
+authors = [
+  {name = "Willi Kappler", email = "grandor@gmx.de"},
+]
+keywords = ["data", "science", "webserver", "terra"]
+license = {text = "MIT License"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12"
+]
+
+[project.urls]
+Repository = "https://github.com/willi-kappler/terra_data_server"
+
