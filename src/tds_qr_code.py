@@ -7,7 +7,7 @@ import segno
 
 
 def tds_gen_qr_code(id: str) -> None:
-    url = f"https://scripts.guz.uni-tuebingen.de/teda/update_sample/{id}"
+    url = f"https://scripts.guz.uni-tuebingen.de/terra/update_sample/{id}"
     qrcode = segno.make_qr(url, error="H")
-    qrcode.save(f"{id}.png")
+    qrcode.save(f"{id}.png", scale=5)
 
