@@ -1,6 +1,13 @@
+# TODO:
+
 - add server code
 - add class for db access
-- add class for generating QR codes
-- add function for generating unique random ids
+
+
+
+# Done:
+# add function for generating QR codes
+# add function for generating unique random ids
+
 
 
