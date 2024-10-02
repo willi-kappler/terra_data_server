@@ -7,7 +7,9 @@
         flake8
         ipython
         mypy
+        psycopg
         segno
+        uvicorn
         ]))
       pyright
       ruff
