@@ -3,7 +3,9 @@ version = "0.1"
 name = "TerraDataServer"
 dependencies = [
     "segno >= 1.6.1",
-    "fastapi >= 0.110.2"
+    "fastapi >= 0.110.2",
+    "psycopg >= 3.1.17",
+    "uvicorn >= 0.29.0"
 ]
 requires-python = ">= 3.12"
 readme = "README.md"
