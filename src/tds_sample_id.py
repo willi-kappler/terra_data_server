@@ -19,7 +19,7 @@ def tds_gen_new_id() -> str:
     # 6 + 1 + 6 = 13 chars
     dt1: str = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     # 10 chars
-    short: str = "schönb2345"
+    short: str = "schoenb2345"
     # 27 chars unique random (22 ?)
     unique = "".join(random.choices(string.ascii_letters + string.digits, k=27))
 
