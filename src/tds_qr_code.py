@@ -10,7 +10,8 @@ import segno
 def tds_gen_qr_code(id: str) -> None:
     out = io.BytesIO()
 
-    qrcode = segno.make_qr(f"https://134.2.5.41/terra/{id}", error="H")
+    #qrcode = segno.make_qr(f"https://134.2.5.41/terra/{id}", error="H")
+    qrcode = segno.make_qr(id, error="H")
     qrcode.save(out, scale=5, kind="png")
     img = Image.open(out)
     img = img.convert('RGB')
